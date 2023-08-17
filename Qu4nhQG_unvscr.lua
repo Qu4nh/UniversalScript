@@ -155,7 +155,7 @@ ServersTab:AddButton({
 GameTab:AddButton({
     Name = "Push Simulator",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/5Polosok/Scripts/main/Protected_8084973456111507.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Push/main/Simulator5"))()
     end
 })
 

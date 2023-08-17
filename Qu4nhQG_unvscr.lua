@@ -155,7 +155,14 @@ ServersTab:AddButton({
 GameTab:AddButton({
     Name = "Push simulator",
     Callback = function()
-        local module = loadstring(game:HttpGet("https://raw.githubusercontent.com/5Polosok/Scripts/main/Protected_8084973456111507.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/5Polosok/Scripts/main/Protected_8084973456111507.lua"))()
+    end
+})
+
+GameTab:AddButton({
+    Name = "Push simulator",
+    Callback = function()
+        oadstring(game:HttpGet("https://raw.githubusercontent.com/Qu4nh/UniversalScript/main/Punch%20Sim/Punch.lua"))()
     end
 })
 

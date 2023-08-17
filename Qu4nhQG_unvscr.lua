@@ -8,21 +8,6 @@ local VirtualInputManager = game:GetService("VirtualInputManager")
 -- Player
 local LocalPlayer = Players.LocalPlayer
 
--- Reusable functions
-local function teleportToPart(part)
-    local humanoidRootPart = LocalPlayer.Character:WaitForChild("HumanoidRootPart")
-    humanoidRootPart.CFrame = CFrame.new(part.Position + Vector3.new(0, 5, 0))
-end
-
-local function teleportToAllParts(folder, delay)
-    for _, part in ipairs(folder:GetDescendants()) do
-        if part:IsA("BasePart") then
-            teleportToPart(part)
-            wait(delay)
-        end
-    end
-end
-
 -- Gui library
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 

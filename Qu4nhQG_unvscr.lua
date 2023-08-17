@@ -36,7 +36,7 @@ local ServersTab = Window:MakeTab({
 })
 
 local GameTab = Window:MakeTab({
-    Name = "Game",
+    Name = "Games",
     Icon = "rbxassetid://your_icon_id"
 })
 

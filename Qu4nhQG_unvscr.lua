@@ -160,7 +160,7 @@ GameTab:AddButton({
 })
 
 GameTab:AddButton({
-    Name = "Push simulator",
+    Name = "Punch simulator",
     Callback = function()
         oadstring(game:HttpGet("https://raw.githubusercontent.com/Qu4nh/UniversalScript/main/Punch%20Sim/Punch.lua"))()
     end

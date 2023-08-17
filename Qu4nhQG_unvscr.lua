@@ -35,6 +35,11 @@ local ServersTab = Window:MakeTab({
     Icon = "rbxassetid://your_icon_id"
 })
 
+local GameTab = Window:MakeTab({
+    Name = "Game",
+    Icon = "rbxassetid://your_icon_id"
+})
+
 -- Main
 MainTab:AddButton({
     Name = "Xoá thời gian giữ nút",
@@ -144,6 +149,13 @@ ServersTab:AddButton({
     Callback = function()
         local module = loadstring(game:HttpGet("https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua"))()
         module:Teleport(game.PlaceId)
+    end
+})
+
+GameTab:AddButton({
+    Name = "Push simulator",
+    Callback = function()
+        local module = loadstring(game:HttpGet("https://raw.githubusercontent.com/5Polosok/Scripts/main/Protected_8084973456111507.lua"))()
     end
 })
 

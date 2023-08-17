@@ -153,7 +153,7 @@ ServersTab:AddButton({
 })
 
 GameTab:AddButton({
-    Name = "Push simulator",
+    Name = "Push Simulator",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/5Polosok/Scripts/main/Protected_8084973456111507.lua"))()
     end
@@ -165,6 +165,14 @@ GameTab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAP1ayer/PlayerHubOther/main/PlayerHubPunchingSimulator.lua", true))()
     end
 })
+
+GameTab:AddButton({
+    Name = "Ninja Fighting Simulator",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0Ninja"))()
+    end
+})
+
 
 -- Init
 OrionLib:Init()

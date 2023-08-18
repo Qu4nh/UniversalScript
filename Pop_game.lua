@@ -11,7 +11,7 @@ end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({
-    Name = "Cuc cut",
+    Name = "Cuc cut (@qu4nh)",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "OrionTest"
@@ -89,7 +89,7 @@ function PerformRebirth()
         = game.Workspace.Rebirth.RebirthPart.CFrame
     wait(0.2)
     fireproximityprompt(RebirthPrompt)
-    wait() -- This ensures that the coin farming resumes immediately after rebirth
+    wait() -- Điều này đảm bảo rằng việc farm tiền sẽ tiếp tục ngay sau khi rebirth
 end
 
 OrionLib:Init()

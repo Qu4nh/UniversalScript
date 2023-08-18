@@ -89,7 +89,7 @@ function PerformRebirth()
         = game.Workspace.Rebirth.RebirthPart.CFrame
     wait(0.2)
     fireproximityprompt(RebirthPrompt)
-    wait() -- This ensures that the coin farming resumes immediately after rebirth
+    wait() -- Điều này đảm bảo rằng việc farm tiền sẽ tiếp tục ngay sau khi rebirth
 end
 
 OrionLib:Init()

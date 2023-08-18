@@ -11,7 +11,7 @@ end
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({
-    Name = "Cuc cut",
+    Name = "Cuc cut (@qu4nh)",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "OrionTest"

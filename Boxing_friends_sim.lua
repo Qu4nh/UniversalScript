@@ -47,5 +47,41 @@ MainTab:AddButton({
     end
 })
 
+MainTab:AddButton({
+    Name = "Kill boss lv5",
+    Callback = function()
+        local args = {
+            [1] = "Kill",
+            [2] = "Level 5"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("NPC"):FireServer(unpack(args))
+    end
+})
+
+MainTab:AddButton({
+    Name = "Kill boss lv10",
+    Callback = function()
+        local args = {
+            [1] = "Kill",
+            [2] = "Level 10"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("NPC"):FireServer(unpack(args))
+    end
+})
+
+MainTab:AddButton({
+    Name = "Kill boss lv15",
+    Callback = function()
+        local args = {
+            [1] = "Kill",
+            [2] = "Level 15"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("NPC"):FireServer(unpack(args))
+    end
+})
+
 -- Init
 OrionLib:Init()

@@ -96,15 +96,17 @@ MainTab:AddButton({
 })
 
 MainTab:AddToggle({
-	Default = false,
-	Callback = function(Value)
-        _G.HideAll = true
+    Name = "Xoá tất cả người chơi",
+    Default = false,
+    Callback = function(Value)
+        _G.HideAll = Value
 	while _G.HideAll and  task.wait() do
 
 	for i,v in pairs(game.Players:GetPlayers()) do
 		if v.Name ~= game.Players.LocalPlayer.Name and v.Character then
-		v.Character:Destroy()
+			v.Character:Destroy()
 		end
+	end
 	end
     end
 })

@@ -179,6 +179,7 @@ GameTab:AddButton({
     Name = "Punch simulator",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAP1ayer/PlayerHubOther/main/PlayerHubPunchingSimulator.lua", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Closed/Punch%20Simulator.lua"))()
     end
 })
 
